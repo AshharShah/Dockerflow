@@ -6,13 +6,13 @@ let activeCarts = [
     cartID: "777",
     cartItems: [
       {
-        title: "Tasty Strawberries",
+        title: "Yummy Strawberries",
         description: "Assorted sizes, 2 cartons",
         cost: 200,
         imageUrl: "stawberries.jpg"
       },
       {
-        title: "Tasty Blackberries",
+        title: "Yummy Blackberries",
         description: "Assorted sizes, 2 cartons",
         cost: 295,
         imageUrl: "blackberries.jpg"
