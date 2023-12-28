@@ -60,7 +60,7 @@ jobs:
           switches: -avzr --delete
           path: ./*
           remote_path: ~/
-          remote_host: 52.23.164.39
+          remote_host: 34.237.114.113
           remote_user: ubuntu
           remote_key: ${{ secrets.SSH_KEY }}
 
@@ -68,7 +68,7 @@ jobs:
       - name: Installing Node Modules
         uses: appleboy/ssh-action@v1.0.0
         with:
-          host: 52.23.164.39
+          host: 34.237.114.113
           username: ubuntu
           key: ${{ secrets.SSH_KEY }}
           port: 22
